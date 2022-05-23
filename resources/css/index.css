@@ -29,6 +29,8 @@ main {
     width: 200px;
 
     border-radius: 100px;
+
+    transition: 200ms;
 }
 
 .fig-azusa-main figcaption {
@@ -69,11 +71,17 @@ main {
     background-color: rgb(59 52 85);
     color: rgb(255, 255, 255);
     font-size: 14px;
+
+    transition-duration: 250ms;
 }
 
 .btn:hover {
+    margin: 0 10px;
+
     opacity: 0.8;
     cursor: pointer;
+
+    transition-duration: 250ms;
 }
 
 .btn:active {
